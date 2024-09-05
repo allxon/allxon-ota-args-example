@@ -1,5 +1,5 @@
 # Allxon OTA Artifact with Command-line Arguments Example
-This example helps you understand how you can process the command-line arguments being passed from the portal during OTA artifact deplyment. And also, you are able to learn how to use the allxon-cli to testify your own generated artifacts with passing arguments.
+This example helps you understand how you can process the command-line arguments being passed from the portal during OTA artifact deplyment. And also, you are able to learn how to use the **_allxon-cli_** to testify your own generated artifacts with passing arguments.
 
 # Design Logic Explaination
 The arguments being passed down are Name and Value paired, so that they could be parsed easier in the script.
