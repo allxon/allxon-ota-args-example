@@ -1,7 +1,7 @@
-# Allxon Hello OTA Artifact Example
-This example shows you how to prepare your wanted OTA files, including all the attachments and the deployment script before the artifact is packed and generated. 
+# Allxon OTA Artifact with Command-line Arguments Example
+This example helps you understand how you can process the command-line arguments being passed from the portal during OTA artifact deplyment. And also, you are able to learn how to use the allxon-cli to testify your own generated artifacts with passing arguments.
 
-# Hello OTA Example Content Structure
+# Example _ota_deploy.sh_ Content Structure
 The Allxon Hello OTA folder structure below shows you where to correctly input your files and directories for packaging your first OTA artifact smoothly. 
 ```
 allxon-hello-ota-example-main
