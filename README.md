@@ -1,7 +1,11 @@
 # Allxon OTA Artifact with Command-line Arguments Example
 This example helps you understand how you can process the command-line arguments being passed from the portal during OTA artifact deplyment. And also, you are able to learn how to use the allxon-cli to testify your own generated artifacts with passing arguments.
 
-# Example _ota_deploy.sh_ Content Structure
+# Design Logic Explain
+The arguments being passed down are Name and Value paired, so that they could be parsed easier in the script.
+![2121](https://github.com/user-attachments/assets/e7079449-cf15-4810-811b-b8cc60981953)
+
+# Example _ota_deploy.sh_ Code Explanation 
 The Allxon Hello OTA folder structure below shows you where to correctly input your files and directories for packaging your first OTA artifact smoothly. 
 ```
 allxon-hello-ota-example-main
