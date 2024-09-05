@@ -14,7 +14,7 @@ In this example, the script only recognizes and parses an argument named "arg1",
 # Generate and Verify OTA Artifact Using Allxon CLI 
 Since you are supposed to verify the OTA activity before doing mass deployment, the artifact generation and related testifying operations shown in below need to be done on your at least one **edge device** firstly. 
 
-1. Make sure you have put everything (docker image, firmware, BSP image, application file, software, script, image, video, etc.) you are going to deploy onto your devices into the `ota_content` directory. 
+1. Make sure you have put everything (docker image, firmware, BSP image, application file, software, script, image, video, etc.) you are going to deploy onto your devices into the a directory. 
 2. Edit `ota_deploy.sh` to suit your needs. (e.g. calling an executable file to execute an action or run an application update).
 3. Run `$allxon-cli ota make –d {path of the folder contains ota_deploy.sh}` to generate an OTA artifact. 
 4. **Run `$sudo allxon-cli ota test -f {file name of the artifact} --args arg1 "Hello World"`** to test the Allxon OTA artifact you just generated. This action will simulate OTA deployment by asking the Allxon Agent to execute `ota_deploy.sh`, so please do mind that all the commands in the script are going to be executed on the edge. 
