@@ -6,7 +6,7 @@ The arguments being passed down are Name and Value paired, so that they could be
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/e7079449-cf15-4810-811b-b8cc60981953">
 
-# `_ota_deploy.sh_` Example Code Explanation 
+# _ota_deploy.sh_ Example Code Explanation 
 In this example, the script only recognizes and parses an argument named "arg1", and will generate a file contains the paired _**Value**_ being put in the blank.
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/139e57c9-7aaf-4969-a88e-3dc85328d81c">
