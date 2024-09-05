@@ -6,21 +6,8 @@ The arguments being passed down are Name and Value paired, so that they could be
 ![2121](https://github.com/user-attachments/assets/e7079449-cf15-4810-811b-b8cc60981953)
 
 # Example _ota_deploy.sh_ Code Explanation 
-The Allxon Hello OTA folder structure below shows you where to correctly input your files and directories for packaging your first OTA artifact smoothly. 
-```
-allxon-hello-ota-example-main
-├── ota_content
-│   └── ota_deploy.sh
-│   └── allxon-ascii-pure.sh
-│   └── allxonOTA.desktop
-│   └── hello_ota.png
-└── README.md
-```
-- **ota_content**:  The folder where you put all the necessary files you want to deploy to your edge devices over-the-air.
-- **ota_deploy.sh**: The executable script that handles all operations related to this OTA deployment. You are allowed to customize the process to suit your needs by transcribing all the corresponding commands into this one automation script, which will be automatically executed by our agent once the artifact is downloaded and unpacked.
-- allxon-ascii-pure.sh/allxonOTA.desktop/hello_ota.png: Example files used for demonstration, could be replaced with your own wanted files. And in this Hello OTA example, you will see these files be moved around. Find the above `ota_deploy.sh` for more details.
-
-
+In this example, the script only recognizes and parses an argument named "arg1", and will generate a file contains the paired _Value_ being put in the blank.
+<img width="423" alt="image" src="https://github.com/user-attachments/assets/139e57c9-7aaf-4969-a88e-3dc85328d81c">
 
 # How to Generate OTA Artifact Using Allxon CLI 
 Since you are supposed to verify the OTA activity before doing mass deployment, the artifact generation and related testifying operations shown in below need to be done on your at least one **edge device** firstly. 
