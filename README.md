@@ -3,7 +3,7 @@ This example helps you understand how you can process the command-line arguments
 
 # Design Logic Explain
 The arguments being passed down are Name and Value paired, so that they could be parsed easier in the script.
-![2121](https://github.com/user-attachments/assets/e7079449-cf15-4810-811b-b8cc60981953)
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/e7079449-cf15-4810-811b-b8cc60981953">
 
 # Example _ota_deploy.sh_ Code Explanation 
